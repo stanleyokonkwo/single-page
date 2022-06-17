@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.single-page {
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    grid-template-columns: repeat(5, 1fr );
+    gap: 30px;
+    background-image: url("./images/bg-intro-desktop.png");
+    background-color: #FF7978;
+    grid-auto-rows: minmax(100px, auto);
+
+}
+.single-page .three{
+    grid-column: 3/5 ;
+    grid-row: 2/5;
+    background-color: #5D54A3;
+    height: 26px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin-top: -60px;
+    border: 1px solid rgb(54, 52, 142);
+    font-family: 'Poppins';
+    font-size: 12px;
+    border-radius:10px;     
+    box-shadow: 1px 5px 4px rgb(182,88,89);
+
+}
+.single-page .one{  
+    grid-column: 2/3 ;
+    grid-row: 2/4;
+    color: white;
+    width: 400px;
+    padding: 15px;
+    margin-top: 30px;
+    font-family: 'Poppins';
+
+}
+.single-page .two{
+    grid-column: 3/5 ;
+    grid-row: 2/4;
+    background-color: #ffffff;
+    height: 320px;
+    padding: 30px;
+    box-shadow: 1px 5px 4px rgb(182,88,89);
+    border: 1px solid #ccc;
+    border-radius:10px; 
+
+}
+
+input[type=text], select, textarea {
+    padding: 12px; 
+    width: 100%; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  input[type=email], select, textarea {
+    padding: 12px; 
+    width: 100%; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  input[type=password], select, textarea {
+    padding: 12px; 
+    width: 100%; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+  }
+
+
+
+  input[type=submit] {
+    width: 100%;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid rgb(214, 205, 205);
+    background-color:#37CC8A;
+    border-radius: 6px;
+    cursor: pointer;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  small{
+    color:#E7E0FF ;
+
+  }
+  #cl{
+    padding: 25px;
+  }
+  .one p {
+    font-size: 12px;
+    font-weight: 100;
+
+  }
