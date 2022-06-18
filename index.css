@@ -123,7 +123,7 @@ input[type=text], select, textarea {
     justify-content: center;
     grid-template-columns: repeat(5, 1fr );
     gap: 30px;
-    height: 900px;
+    height: 1200px;
     background-image: url("./images/bg-intro-mobile.png");
     background-color: #FF7978;
     grid-auto-rows: minmax(100px, auto);
@@ -138,18 +138,18 @@ input[type=text], select, textarea {
       font-size: 16px;
       padding: 20px;
       text-align: center;
-      margin-left: -5px;
+      margin-left: -50px;
   }
      .single-page .two{
     grid-column: 3/5 ;
-    grid-row: 4;
+    grid-row: 3;
     background-color: #ffffff;
     height: 350px;
     box-shadow: 1px 5px 4px rgb(182,88,89);
     border: 1px solid #ccc;
     border-radius:10px; 
-    margin-top: -10px;
-    margin-left: 5px;
+    margin-top: 50px;
+    margin-left: -30px;
     width: 240px;
     margin-bottom: 90px;
 
@@ -162,10 +162,11 @@ input[type=text], select, textarea {
     color: white;
     border: 1px solid rgb(54, 52, 142);
     font-family: 'Poppins';
+    text-align: center;
     font-size: 12px;
-    margin-left: 5px;
+    margin-left: -30px;
     width: 300px;
-    margin-top:50px;
+    margin-top:-40px;
     border-radius:10px;     
     box-shadow: 1px 5px 4px rgb(182,88,89);
   
