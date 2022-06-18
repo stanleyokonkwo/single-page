@@ -101,6 +101,30 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
+
+input:required:invalid{
+  outline:none;
+  border: none;
+  border:1px solid hsl(0, 100%, 74%);
+  background-image:url('./images/icon-error.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-origin: content-box;
+}
+input:invalid+span{
+  display: inline;
+  color:hsl(0, 100%, 74%);
+  float:right;
+  font-size: 14px;
+}
+input:valid{
+  outline: none;
+  border: none;
+  border: 1px solid saddlebrown;
+}
+span{
+  display: none;
+}
   
   small{
     color:#E7E0FF ;
@@ -177,5 +201,8 @@ input[type=text], select, textarea {
   }
     span{
     padding: 50px;
+  }
+     small{
+    right: 120%;
   }
 }
