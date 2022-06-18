@@ -138,7 +138,7 @@ input[type=text], select, textarea {
       font-size: 16px;
       padding: 20px;
       text-align: center;
-      margin-left: -40px;
+      margin-left: -30px;
   }
      .single-page .two{
     grid-column: 3/5 ;
