@@ -138,7 +138,7 @@ input[type=text], select, textarea {
       font-size: 16px;
       padding: 20px;
       text-align: center;
-      margin-left: -10px;
+      margin-left: -5px;
   }
      .single-page .two{
     grid-column: 3/5 ;
@@ -149,12 +149,12 @@ input[type=text], select, textarea {
     border: 1px solid #ccc;
     border-radius:10px; 
     margin-top: -10px;
-    margin-left: 10px;
+    margin-left: 5px;
     width: 240px;
     margin-bottom: 90px;
 
 }
-      .single-page .three{
+    .single-page .three{
     grid-column: 3/5 ;
     grid-row: 3/5;
     background-color: #5D54A3;
@@ -163,7 +163,7 @@ input[type=text], select, textarea {
     border: 1px solid rgb(54, 52, 142);
     font-family: 'Poppins';
     font-size: 12px;
-    margin-left: 10px;
+    margin-left: 5px;
     width: 300px;
     margin-top:50px;
     border-radius:10px;     
