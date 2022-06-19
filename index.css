@@ -82,6 +82,14 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
   }
+  #bri{
+    color:hsl(0, 100%, 74%);
+
+  }
+  a{
+    text-decoration: none;
+    color:hsl(0, 100%, 74%);
+  }
 
 input:required:invalid{
   outline:none;
@@ -198,12 +206,21 @@ span{
     box-shadow: 1px 5px 4px rgb(182,88,89);
   
   }
+  small{
+    text-align: center;
+    margin: 0;
+  }
  
       #cl{
     padding: 15px;
     text-align: center;
   }
-    span{
+  a{
+    text-align: center;
+    margin: 50px;
+  }
+      
+      span{
     margin:0px;
 
   }
