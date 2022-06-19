@@ -45,7 +45,7 @@ body{
     grid-column: 3/5 ;
     grid-row: 2/4;
     background-color: #ffffff;
-    height: 320px;
+    height: 409px;
     padding: 30px;
     box-shadow: 1px 5px 4px rgb(182,88,89);
     border: 1px solid #ccc;
@@ -83,25 +83,6 @@ input[type=text], select, textarea {
     margin-bottom: 16px; 
   }
 
-
-
-  input[type=submit] {
-    width: 100%;
-    color: white;
-    padding: 12px 20px;
-    border: 1px solid rgb(214, 205, 205);
-    background-color:#37CC8A;
-    border-radius: 6px;
-    cursor: pointer;
-    font-family: 'Poppins';
-
-
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
 input:required:invalid{
   outline:none;
   border: none;
@@ -120,11 +101,32 @@ input:invalid+span{
 input:valid{
   outline: none;
   border: none;
-  border: 1px solid saddlebrown;
+      border: 1px solid hsl(154, 59%, 52%);
+
 }
 span{
   display: none;
+  margin: 0px;
 }
+
+  
+
+  input[type=submit] {
+    width: 100%;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid rgb(214, 205, 205);
+    background-color:#37CC8A;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins';
+
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
   
   small{
     color:#E7E0FF ;
@@ -153,6 +155,7 @@ span{
     grid-auto-rows: minmax(100px, auto);
 
 }
+
     .single-page .one{  
       grid-column: 3/5 ;
       grid-row: 1/4;
@@ -162,18 +165,18 @@ span{
       font-size: 16px;
       padding: 20px;
       text-align: center;
-      margin-left: -30px;
+      margin-left: -60px;
   }
      .single-page .two{
     grid-column: 3/5 ;
     grid-row: 3;
     background-color: #ffffff;
-    height: 350px;
+    height: 450px;
     box-shadow: 1px 5px 4px rgb(182,88,89);
     border: 1px solid #ccc;
     border-radius:10px; 
     margin-top: 50px;
-    margin-left: -30px;
+    margin-left: -48px;
     width: 240px;
     margin-bottom: 90px;
 
@@ -188,21 +191,20 @@ span{
     font-family: 'Poppins';
     text-align: center;
     font-size: 12px;
-    margin-left: -30px;
+    margin-left: -48px;
     width: 300px;
     margin-top:-40px;
     border-radius:10px;     
     box-shadow: 1px 5px 4px rgb(182,88,89);
   
   }
+ 
       #cl{
     padding: 15px;
     text-align: center;
   }
     span{
-    padding: 50px;
-  }
-     small{
-    right: 120%;
+    margin:0px;
+
   }
 }
